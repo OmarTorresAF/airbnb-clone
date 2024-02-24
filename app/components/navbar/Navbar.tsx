@@ -25,6 +25,7 @@ const Navbar = () => {
             md:gap-0">
                 <Logo/>
                 <Search/>
+                <UserMenu/>
             </div>
             </Container>
         </div>
