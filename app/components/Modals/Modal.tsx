@@ -72,7 +72,7 @@ const Modal: React.FC<ModalProps> = ({
             <div
             className="
             justify-center
-            item-center
+            items-center
             flex
             overflow-x-hidden
             overflow-y-auto
@@ -155,14 +155,15 @@ const Modal: React.FC<ModalProps> = ({
                                     </div>
                             </div>
                             {/* BODY */}
-                            <div className="relative p-6 flex-auto">
+                                <div className="relative p-6 flex-auto">
                                 {body}
-                            </div>
-                            {/* FOOTER */}
-                            <div className="flex flex-col gap-2 p-6">
-                                <div className="flex flex-row items-center gap-4 w-full">
                                 </div>
-                            </div>
+                            {/* FOOTER */}
+                                    <div className="flex flex-col gap-2 p-6">
+                                        <div className="flex flex-row items-center gap-4 w-full">
+                                            <Button/>
+                                        </div>
+                                    </div>
                         </div>
                     </div>
                 </div>
